@@ -1,0 +1,5 @@
+- prevalue 将标签全部过滤
+- value 将 非 img|video 标签过滤
+- 对比 prevalue 与 value 的数据
+- 将 &lt; 与 &gt; 标签转义
+- 输出 renderHTML

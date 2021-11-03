@@ -1,0 +1,20 @@
+{
+  "name": "diff-html-content",
+  "version": "1.0.0",
+  "description": "对比稿件内容",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "cross-env NODE_ENV=dev rollup --config",
+    "build": "cross-env NODE_ENV=prod rollup --config"
+  },
+  "author": "weil",
+  "license": "ISC",
+  "devDependencies": {
+    "diff-match-patch": "^1.0.5",
+    "rollup-plugin-uglify": "^6.0.4"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
